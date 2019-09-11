@@ -20,7 +20,7 @@ thinkplot.Config(xlabel='number of children',ylabel='count')
 
 Means:
 
-for num, p in pmf_actual.Items():
+for num, p in pmf_actual.Items():\t
     mean_a = 0
     mean_a += num*p
     
